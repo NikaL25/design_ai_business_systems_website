@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Deploy production build to Vercel",
+			"type": "shell",
+			"command": "npx vercel --prod",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Deploy production build to Vercel (confirmed package)",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Deploy AI Business Systems demo to Vercel",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod --yes --name design-ai-business-systems-demo",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

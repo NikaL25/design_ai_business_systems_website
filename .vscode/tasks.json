@@ -21,6 +21,41 @@
 			"command": "npx --yes vercel@65.2.0 --prod --yes --name design-ai-business-systems-demo",
 			"isBackground": false,
 			"problemMatcher": []
+		},
+		{
+			"label": "Redeploy Vercel SPA routes",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod --yes",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Redeploy Vercel demo with valid project name",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod --yes --name design-ai-business-systems-demo",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Deploy linked Vercel project",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 deploy --prod --yes",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Publish Vercel route fix",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod --name design-ai-business-systems-demo",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Deploy route fix with explicit Vercel name",
+			"type": "shell",
+			"command": "npx --yes vercel@65.2.0 --prod --yes --name=design-ai-business-systems-demo",
+			"isBackground": false,
+			"problemMatcher": []
 		}
 	]
 }

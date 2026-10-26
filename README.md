@@ -4,7 +4,7 @@ AI Business Systems is a responsive, design-led marketing website for a digital 
 
 ## Live demo
 
-> **Vercel demo:** [design-ai-business-systems-demo.vercel.app](https://design-ai-business-systems-demo.vercel.app)
+> **Vercel demo:** [design-ai-business-systems-demo.vercel.app](https://designaibusinesssystemswebsite.vercel.app/)
 
 ## What the project demonstrates
 
